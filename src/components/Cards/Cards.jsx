@@ -1,5 +1,6 @@
 import React from 'react' 
 import "./Cards.css"
+import { Link } from 'react-router-dom'
 
 const Cards = () => {
   return (
@@ -17,7 +18,7 @@ const Cards = () => {
 to disembark.</p> 
 <div className='text-end'>
 <img src='assets\plus.png' style={{width:"15px"}}></img>
-      <a href="#" className="getActionCard">Choose your seat</a> 
+      <Link to="Seatreservation" className="getActionCard">Choose your seat</Link> 
       </div>
     </div>
   </div>

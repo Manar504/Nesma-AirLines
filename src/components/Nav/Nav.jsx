@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Nav = () => {
   return (
@@ -13,9 +14,9 @@ const Nav = () => {
     {/* Collapsible wrapper */}
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       {/* Navbar brand */}
-      <a className="navbar-brand mt-0 mt-lg-0" style={{padding:"0px" ,marginLeft:"200px"}} href="#">
+      <Link className="navbar-brand mt-0 mt-lg-0" style={{padding:"0px" ,marginLeft:"200px"}} to="/">
         <img src="assets\Logo.png" height={50}  alt="Logo" loading="lazy" />
-      </a>
+      </Link>
      
     </div>
     <div className="d-flex align-items-center mx-5">
