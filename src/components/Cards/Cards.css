@@ -1,0 +1,19 @@
+.titleCard{
+  color: #0578FF; 
+  text-decoration: none; 
+  font-size: 17px;
+} 
+
+.card-text{
+    font-size: 14px; 
+    line-height: 100%;
+} 
+
+.card {
+    height: 70vh;
+} 
+
+.getActionCard{
+    text-decoration: none; 
+    font-size: 15px;
+}

@@ -1,0 +1,25 @@
+.Services{
+    color: var(--Color-Text-On-Action-secondary, #0578FF);
+    text-align: center;
+    font-feature-settings: 'calt' off, 'liga' off;
+    
+    /* Mulish/32/Bold */
+    
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 48px */
+} 
+
+.ServicesPara{
+    color: var(--Color-Text-Body, #17263D);
+text-align: center;
+
+
+
+
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 36px */
+}
