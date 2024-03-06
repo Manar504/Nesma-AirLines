@@ -1,0 +1,11 @@
+.para{
+    color: var(--Color-Text-Body-2, #4A5970);
+font-feature-settings: 'calt' off, 'liga' off;
+
+/* Mulish/16/Medium */
+
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 24px */
+}

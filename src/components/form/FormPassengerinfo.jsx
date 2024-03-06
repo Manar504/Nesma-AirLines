@@ -1,11 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+import "./FormPassengerinfo.css"
 
 const FormPassengerinfo = () => {
   return ( 
    <form className='bg-white' style={{width:"50%" ,margin:"50px" ,padding:"30px"}}>
-
+    <h3> Passenger info</h3>
   {/* 2 column grid layout with text inputs for the first and last names */}
-  <div className="row mb-4">
+  <div className="row mb-4"> 
+  
     <div className="col">
       <div data-mdb-input-init className="form-outline">
         <input type="text" id="form6Example1" className="form-control" />
@@ -20,10 +23,7 @@ const FormPassengerinfo = () => {
     </div>
   </div>
   {/* Text input */}
-  <div data-mdb-input-init className="form-outline mb-4">
-    <input type="text" id="form6Example3" className="form-control" />
-    <label className="form-label" htmlFor="form6Example3">Company name</label>
-  </div>
+  
   {/* Text input */}
   <div data-mdb-input-init className="form-outline mb-4">
     <input type="text" id="form6Example4" className="form-control" />
@@ -44,13 +44,19 @@ const FormPassengerinfo = () => {
     <textarea className="form-control" id="form6Example7" rows={4} defaultValue={""} />
     <label className="form-label" htmlFor="form6Example7">Additional information</label>
   </div>
-  {/* Checkbox */}
-  <div className="form-check d-flex justify-content-center mb-4">
-    <input className="form-check-input me-2" type="checkbox" defaultValue id="form6Example8" defaultChecked />
-    <label className="form-check-label" htmlFor="form6Example8"> Create an account? </label>
+ 
+  <div className="form-check d-flex justify-content-end mb-4">
+  <div className='text-end'>
+<img src='assets\plus.png' style={{width:"15px"}}></img>
+      <Link to="Seatreservation" className="getActionCard">Add Passenger</Link> 
+      </div>
+  </div> 
+  <div>
+    <p className='para'>Choose ‘Review and Pay’ now to book faster. Select seats and add-ons later on our app</p>
   </div>
-  {/* Submit button */}
-  <button data-mdb-ripple-init type="button" className="btn btn-primary btn-block mb-4">Place order</button>
+  <div dir='rtl'>
+  <button data-mdb-ripple-init type="button" className="btn mb-4 rounded-5" style={{backgroundColor:"#FECD42" }}>Save and continue</button> 
+  </div>
 </form>
 
 
