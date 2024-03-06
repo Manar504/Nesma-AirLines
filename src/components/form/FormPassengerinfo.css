@@ -8,4 +8,24 @@ font-size: 14px;
 font-style: normal;
 font-weight: 500;
 line-height: 150%; /* 24px */
-}
+} 
+
+
+.PassengerInfo{
+    animation-name: Form; 
+    animation-duration: 2s; 
+    animation-iteration-count: infinite; 
+     transform: translateY(250px);
+
+} 
+
+/* @keyframes Form { 
+   from{
+    transform:  translate(0px, 200px);
+   } 
+
+   to{
+    transform: translate(0px 200px) ;
+   }
+    
+} */

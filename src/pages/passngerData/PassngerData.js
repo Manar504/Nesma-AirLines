@@ -4,15 +4,15 @@ import FormPassengerinfo from '../../components/form/FormPassengerinfo';
 
 const PassngerData = () => {
   return (
-    <div className='continar'>  
+    <div className='continar' style={{height:"200vh"}}>  
     <div>
     <div className='Cover'>  
    
-   
-    </div> 
-    <div className="d-flex justify-content-center align-items-start" style={{position:"relative" ,margin:"0px "}}>
+    <div className="d-flex justify-content-center align-items-start" >
    <FormPassengerinfo/> 
    </div>
+    </div> 
+   
     </div>
    
     </div>

@@ -4,46 +4,38 @@ import "./FormPassengerinfo.css"
 
 const FormPassengerinfo = () => {
   return ( 
-   <form className='bg-white' style={{width:"50%" ,margin:"50px" ,padding:"30px"}}>
+   <form className='bg-white PassengerInfo' style={{width:"50%" ,margin:"50px" ,padding:"30px"}}>
     <h3> Passenger info</h3>
   {/* 2 column grid layout with text inputs for the first and last names */}
   <div className="row mb-4"> 
   
     <div className="col">
-      <div data-mdb-input-init className="form-outline">
-        <input type="text" id="form6Example1" className="form-control" />
-        <label className="form-label" htmlFor="form6Example1">First name</label>
+      <div data-mdb-input-init className="form-outline"> 
+        <input type="text" id="form6Example1" className="form-control"  placeholder='First name'/>
+        
       </div>
     </div>
     <div className="col">
-      <div data-mdb-input-init className="form-outline">
-        <input type="text" id="form6Example2" className="form-control" />
-        <label className="form-label" htmlFor="form6Example2">Last name</label>
+      <div data-mdb-input-init className="form-outline"> 
+        <input type="text" id="form6Example2" className="form-control"  placeholder='Last name'/>
+        
       </div>
     </div>
   </div>
   {/* Text input */}
-  
-  {/* Text input */}
-  <div data-mdb-input-init className="form-outline mb-4">
-    <input type="text" id="form6Example4" className="form-control" />
-    <label className="form-label" htmlFor="form6Example4">Address</label>
-  </div>
+
+
   {/* Email input */}
-  <div data-mdb-input-init className="form-outline mb-4">
-    <input type="email" id="form6Example5" className="form-control" />
-    <label className="form-label" htmlFor="form6Example5">Email</label>
+  <div data-mdb-input-init className="form-outline mb-4"> 
+    <input type="email" id="form6Example5" className="form-control" placeholder='Email' />
+    
   </div>
   {/* Number input */}
   <div data-mdb-input-init className="form-outline mb-4">
-    <input type="number" id="form6Example6" className="form-control" />
-    <label className="form-label" htmlFor="form6Example6">Phone</label>
+    <input type="number" id="form6Example6" className="form-control" placeholder='Mobile' />
+   
   </div>
-  {/* Message input */}
-  <div data-mdb-input-init className="form-outline mb-4">
-    <textarea className="form-control" id="form6Example7" rows={4} defaultValue={""} />
-    <label className="form-label" htmlFor="form6Example7">Additional information</label>
-  </div>
+ 
  
   <div className="form-check d-flex justify-content-end mb-4">
   <div className='text-end'>
