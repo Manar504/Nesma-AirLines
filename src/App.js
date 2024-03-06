@@ -5,6 +5,7 @@ import Nav from './components/Nav/Nav';
 import Footer from './components/Footer/Footer';
 import { Route, Routes } from 'react-router-dom';
 import Seatreservation from './pages/SeatReservation/Seatreservation';
+import PassngerData from './pages/passngerData/PassngerData';
 
 function App() {
   return ( 
@@ -13,7 +14,8 @@ function App() {
      <div className='continar'>
      <Routes>
       <Route path='/' element={<SerivesPage/> }/>
-      <Route path='Seatreservation' element={<Seatreservation/>}/>
+      <Route path='Seatreservation' element={<Seatreservation/>}/> 
+      <Route path='PassngerData' element={<PassngerData/>}/>
      </Routes> 
      </div>
      <Footer/> 

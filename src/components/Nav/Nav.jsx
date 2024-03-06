@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Nav = () => {
   return (
 
-<nav className="navbar navbar-expand-lg navbar-light bg-body-tertiary" style={{padding:"0px"}}>
+<nav className="navbar navbar-expand-lg navbar-light bg-transparnt" style={{padding:"0px"}}>
   {/* Container wrapper */}
   <div className="container-fluid" >
     {/* Toggle button */}
@@ -31,18 +31,18 @@ const Nav = () => {
     
     <div className="d-flex align-items-center mx-5">
     
-      <a className="text-reset me-1 " href="#">
+      <Link className="text-reset me-1 " to="PassngerData">
       <i className="fa-regular fa-user"></i>  
-      </a> 
-      Sign in / up
+      </Link> 
+      Sign in 
       
       
     
     
     </div>
-    {/* Right elements */}
+    
   </div>
-  {/* Container wrapper */}
+ 
 </nav>
 
 

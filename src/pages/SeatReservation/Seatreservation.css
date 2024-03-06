@@ -1,0 +1,8 @@
+.text{
+    color: var(--Color-Text-Body-2, #4A5970);
+font-feature-settings: 'calt' off, 'liga' off;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 36px */
+}

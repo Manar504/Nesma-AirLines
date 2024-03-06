@@ -1,0 +1,9 @@
+.Cover{
+    background-image: url("../../../public/assets/cover.png");
+  width: 100%;
+  height: 50vh; 
+    background-size: cover;
+    background-position: center; 
+   
+    
+}
