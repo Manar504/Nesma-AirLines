@@ -10,7 +10,16 @@ const FormPassengerinfo = () => {
   return ( 
    <form className='bg-white PassengerInfo' style={{width:"50%" ,margin:"50px" ,padding:"30px"}}>
     <h3> Passenger info</h3>
-  {/* 2 column grid layout with text inputs for the first and last names */}
+ <div className='row mb-4'> 
+ <label style={{color:"gray" ,marginBottom:"10px"}}>Gender</label>
+ <div data-mdb-input-init className="form-outline">  
+        <select id="form6Example1" className="form-control" name='gender'>  
+        <option value="saab">Male</option>
+  <option value="mercedes">Female</option>
+        </select>
+        
+      </div>
+ </div>
   <div className="row mb-4"> 
   
     <div className="col">
@@ -26,17 +35,22 @@ const FormPassengerinfo = () => {
       </div>
     </div>
   </div>
-  {/* Text input */}
 
-
-  {/* Email input */}
   <div data-mdb-input-init className="form-outline mb-4"> 
     <input type="email" id="form6Example5" className="form-control" placeholder='Email' />
     
+  </div> 
+  <div data-mdb-input-init className="form-outline mb-4"> 
+  <label style={{color:"gray" ,marginBottom:"10px"}}>Country</label>
+  <select id="form6Example1" className="form-control" name='gender'>  
+        <option value="saab">Egypt</option>
+  <option value="mercedes">Franc</option>
+        </select>
+   
   </div>
-  {/* Number input */}
+  <label style={{color:"gray" ,marginBottom:"10px"}}>Mobile</label>
   <div data-mdb-input-init className="form-outline mb-4">
-    <input type="number" id="form6Example6" className="form-control" placeholder='Mobile' />
+    <input type="number" id="form6Example6" className="form-control" placeholder='+20' />
    
   </div>
  

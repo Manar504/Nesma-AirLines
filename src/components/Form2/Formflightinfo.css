@@ -1,10 +1,10 @@
-.para{
+.para2{
     color: var(--Color-Text-Body-2, #4A5970);
 font-feature-settings: 'calt' off, 'liga' off;
 
 /* Mulish/16/Medium */
 
-font-size: 14px;
+font-size: 12px;
 font-style: normal;
 font-weight: 500;
 line-height: 150%; /* 24px */
@@ -14,6 +14,8 @@ line-height: 150%; /* 24px */
 .PassengerInfo{
     
      transform: translateY(0px);
+     background-color: white; 
+     
 
 } 
 
@@ -41,4 +43,105 @@ line-height: 150%; /* 24px */
     .Save{
         color: black; 
         text-decoration: none;
-    }
+    } 
+    .flight-form {
+        width: 50%;
+        margin: 50px auto;
+        padding: 30px;
+        background-color: white;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
+      
+      .input-group {
+        margin-bottom: 20px;
+      }
+      
+      .input-group label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      
+      .input-group input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      
+      .checkout-button {
+        width: 100%;
+        padding: 10px 20px;
+        background-color: #FECD42;
+        border: none;
+        border-radius: 4px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      
+
+      .flight-form {
+        /* Styles for the form */
+      }
+      .form-row {
+        display: flex;
+        gap: 20px;
+      }
+      .form-group {
+       
+        position: relative; 
+        
+      } 
+      .form-group label {
+        /* Styles for the label */
+      }
+      .form-group button { 
+        position: absolute; 
+        top:0px; 
+        left: -15px;
+        
+       
+        width: 50px; 
+        height: 100%;
+        border-radius: 50%; 
+        cursor: pointer; 
+        border: none;
+        background:none;
+        
+        
+       
+        
+      }  
+
+      
+      .form-group button i{
+        color: gray;
+      } 
+
+      .form-group2 button { 
+        position: absolute; 
+        top:270px; 
+        right:560px;
+        width: 50px; 
+        height: 100%;
+        border-radius: 50%; 
+        cursor: pointer; 
+        border: none;
+        background:none;
+      }  
+
+      .form-group2 button i{
+        color: gray;
+      } 
+
+      .btn1{
+        background-color: #FECD42; /* Sample button color */
+       border: none;  
+       border-radius:20PX;
+        padding: 5PX;  
+        width: 30%;
+        
+        
+      }
+      

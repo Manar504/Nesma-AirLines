@@ -1,6 +1,6 @@
 import React from 'react' ; 
 import "./AirPlanData.css"
-import Formflightinfo from '../../components/Form2/Formflightinfo';
+import FlightForm from '../../components/Form2/Formflightinfo';
 
 const AirPlanData = () => {
   return (
@@ -14,7 +14,7 @@ const AirPlanData = () => {
     
          
     <div className="d-flex justify-content-center align-items-start" >
-    <Formflightinfo/>
+    <FlightForm/>
    </div>
     </div> 
    
