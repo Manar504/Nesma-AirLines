@@ -8,7 +8,7 @@ const Cards = () => {
     <div className="card container" style={{padding:"0px" ,marginBottom :"20px"}} >
     
     <img className="card-img-top" src="assets\Sests.png" alt="Card image cap" />
-    <i class="fa-regular fa-circle-question text-end"style={{fontSize:"15px" ,margin:"5px"}}></i>  
+    <i className="fa-regular fa-circle-question text-end"style={{fontSize:"15px" ,margin:"5px"}}></i>  
     
     <div className="card-body">
       

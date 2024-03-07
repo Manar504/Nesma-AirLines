@@ -1,10 +1,10 @@
-import React from 'react';
-import "./PassngerData.css"
-import FormPassengerinfo from '../../components/form/FormPassengerinfo';
+import React from 'react' ; 
+import "./AirPlanData.css"
+import Formflightinfo from '../../components/Form2/Formflightinfo';
 
-const PassngerData = () => {
+const AirPlanData = () => {
   return (
-    <div className='continar' style={{height:"200vh"}}>  
+<div className='continar' style={{height:"200vh"}}>  
     <div>
     <div className='Cover'>    
     
@@ -12,9 +12,9 @@ const PassngerData = () => {
     <p className='DISCOVEROURROUTES'>DISCOVER OUR ROUTES</p>
    
     
-   
+         
     <div className="d-flex justify-content-center align-items-start" >
-   <FormPassengerinfo/> 
+    <Formflightinfo/>
    </div>
     </div> 
    
@@ -24,4 +24,4 @@ const PassngerData = () => {
   )
 }
 
-export default PassngerData;
+export default AirPlanData

@@ -1,17 +1,18 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
-import "./FormPassengerinfo.css"; 
+import React from 'react' 
+import { Link } from 'react-router-dom'; 
+import "./Formflightinfo.css"
 
+const Formflightinfo = () => {
+  return (
+    <form className='bg-white PassengerInfo' style={{width:"50%" ,margin:"50px" ,padding:"30px"}}>
+    <h3>Nesma Options</h3> 
 
-
-const FormPassengerinfo = () => { 
-
-
-  return ( 
-   <form className='bg-white PassengerInfo' style={{width:"50%" ,margin:"50px" ,padding:"30px"}}>
-    <h3> Passenger info</h3>
-  {/* 2 column grid layout with text inputs for the first and last names */}
-  <div className="row mb-4"> 
+    <div className='row mb-4'>
+        <p className='para'>If you have already booked your flight on a Nesma route, you can add certain options to your booking. These options include seat reservation, sports equipment, excess or additional baggage, and special meals. You can add these options up to four days before your departure. To add any of these options.
+Please enter your booked route.</p>
+    </div>
+ 
+  <div className="row mb-4">  
   
     <div className="col">
       <div data-mdb-input-init className="form-outline"> 
@@ -58,10 +59,7 @@ const FormPassengerinfo = () => {
 
 </form>
 
-
-
-
   )
 }
 
-export default FormPassengerinfo
+export default Formflightinfo
