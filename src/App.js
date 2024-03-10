@@ -7,6 +7,8 @@ import { Route, Routes } from 'react-router-dom';
 import Seatreservation from './pages/SeatReservation/Seatreservation';
 import PassngerData from './pages/passngerData/PassngerData';
 import AirPlanData from './pages/AirPLanData/AirPlanData';
+import OverviewCheckout from './pages/OverviewCheckout/OverviewCheckout';
+import OverviewReseat from './pages/OverviewReseat/OverviewReseat';
 
 
 function App() {
@@ -18,7 +20,9 @@ function App() {
       <Route path='/' element={<SerivesPage/> }/>
       <Route path='Seatreservation' element={<Seatreservation/>}/> 
       <Route path='PassngerData' element={<PassngerData/>}/>  
-      <Route path='AirPlanData' element={<AirPlanData/>}/>
+      <Route path='AirPlanData' element={<AirPlanData/>}/> 
+      <Route path='OverviewCheckout' element={<OverviewCheckout/>} /> 
+      <Route path='OverviewReseat' element={<OverviewReseat/>}/>
     
      </Routes> 
      </div>

@@ -1,7 +1,19 @@
 import React from "react"; 
-import "./Seatreservation.css"
+import "./Seatreservation.css" ;
+import AirplaneBody from "../../components/airplane/AirplaneBody";
 
-const Seatreservation = () => {
+const Seatreservation = () => { 
+  const seatMapData = [
+    { number: '1A', isOccupied: false },
+    { number: '1B', isOccupied: true },
+    // Add all your seats here
+  ]; 
+
+  const rows = []; 
+  const handleSelectSeat = (seatNumber) => {
+    console.log(`Seat ${seatNumber} selected`);
+    // Add your logic for seat selection here
+  };
   return (
     <div className="container-fluid">
       <div
@@ -39,8 +51,12 @@ const Seatreservation = () => {
           <img style={{width:"15px" ,backgroundColor:"gray" }} src="assets\gray.png"/> 
           <span style={{fontSize:"12px", margin:"10px" }}>Taken</span>
         </div> 
-        </div>
-      </div>
+        </div> 
+        <div className="app">
+      <AirplaneBody rows={rows} onSelectSeat={handleSelectSeat} />
+    </div>
+      </div> 
+      
     </div>
   );
 };

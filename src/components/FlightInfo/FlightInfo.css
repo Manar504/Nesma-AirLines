@@ -1,0 +1,36 @@
+.flight-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px; 
+    padding-right: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.192);
+    border-radius: 4px;
+    font-family: Arial, sans-serif; 
+    margin-bottom: 20px; 
+
+  }
+  
+  .flight-route {
+    font-size: 16px;
+   align-self: center;
+   
+  }
+  
+  .airport-code {
+    text-transform: uppercase;
+  }
+  
+  .flight-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  
+  /* Add more styles as needed to match the design */
+  
+
+  .vertical-line {
+    border-left: 1px solid rgba(0, 0, 0, 0.24); /* Thickness and color of the line */
+    height: 30px; /* Height of the line */ 
+    margin: 5px;
+}

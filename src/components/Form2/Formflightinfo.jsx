@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Formflightinfo.css"; // This is where you will import your styles from
+import { Link } from "react-router-dom";
 
 function FlightForm() {
   // ... (your useState and functions here)
@@ -68,8 +69,8 @@ function FlightForm() {
 
       </div> 
       <div className="d-flex justify-content-end mt-3">
-      <button type="submit" className="btn1">
-        Checkout
+      <button type="submit" className="btn1"> <Link className="Link" to="/OverviewCheckout">Checkout</Link>
+       
       </button> 
       </div>
     </form>

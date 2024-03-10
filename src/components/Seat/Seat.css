@@ -1,0 +1,15 @@
+.seat {
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    background-color: #eee;
+    display: inline-block;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+  }
+  
+  .occupied {
+    background-color: red;
+  }
+  

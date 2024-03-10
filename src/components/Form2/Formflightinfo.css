@@ -143,5 +143,10 @@ line-height: 150%; /* 24px */
         width: 30%;
         
         
+      } 
+
+      .Link{
+        text-decoration: none; 
+        color: black;
       }
       

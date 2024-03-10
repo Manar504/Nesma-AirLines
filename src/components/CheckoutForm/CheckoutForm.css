@@ -1,0 +1,9 @@
+.para{
+    color: gray;
+} 
+
+.vertical-line {
+    border-left: 1px solid rgba(0, 0, 0, 0.24); /* Thickness and color of the line */
+    height: 100px; /* Height of the line */ 
+    margin: 5px;
+}
