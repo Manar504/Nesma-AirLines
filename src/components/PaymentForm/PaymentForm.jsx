@@ -76,7 +76,9 @@
      
                 <br/> 
                 <div className='d-flex justify-content-end'>
-                <button className='button' type='submit' > <Link className='Link' to="OverviewReseat">Complete</Link></button>
+                <Link to="/OverviewReseat" className="button">
+  Complete
+</Link>
                 </div>
                 
               </div>

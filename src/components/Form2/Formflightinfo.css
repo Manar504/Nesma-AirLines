@@ -150,3 +150,21 @@ line-height: 150%; /* 24px */
         color: black;
       }
       
+
+      .btn1 {
+        display: inline-block;
+        padding: 8px 15px; /* Adjust padding to your preference */
+        background-color: #FECD42; /* Example button color */
+        color: black; /* Text color */
+        text-align: center;
+        text-decoration: none; /* Removes underline from link */
+        border: none; /* No border for a button-like appearance */
+        cursor: pointer; /* Changes cursor to indicate clickable item */
+        border-radius: 5px; /* Optional: rounded corners for the button */
+        font-size: 16px; /* Adjust font size as needed */
+      }
+      
+      .btn1:hover, .btn1:focus {
+        background-color: #FECD42; /* Darker shade for hover/focus */
+      }
+      

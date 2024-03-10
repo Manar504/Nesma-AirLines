@@ -69,9 +69,9 @@ function FlightForm() {
 
       </div> 
       <div className="d-flex justify-content-end mt-3">
-      <button type="submit" className="btn1"> <Link className="Link" to="/OverviewCheckout">Checkout</Link>
-       
-      </button> 
+      <Link to="/OverviewCheckout" className="btn1 Link">
+  Checkout
+</Link>
       </div>
     </form>
   );
