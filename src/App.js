@@ -9,6 +9,7 @@ import PassngerData from './pages/passngerData/PassngerData';
 import AirPlanData from './pages/AirPLanData/AirPlanData';
 import OverviewCheckout from './pages/OverviewCheckout/OverviewCheckout';
 import OverviewReseat from './pages/OverviewReseat/OverviewReseat';
+import MealsOnBoard from './pages/MealsOnBoard/MealsOnBoard';
 
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
       <Route path='PassngerData' element={<PassngerData/>}/>  
       <Route path='AirPlanData' element={<AirPlanData/>}/> 
       <Route path='OverviewCheckout' element={<OverviewCheckout/>} /> 
-      <Route path='OverviewReseat' element={<OverviewReseat/>}/>
+      <Route path='OverviewReseat' element={<OverviewReseat/>}/> 
+      <Route path='MealsOnBoard' element={<MealsOnBoard/>}/>
     
      </Routes> 
      </div>

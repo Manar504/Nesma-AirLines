@@ -30,7 +30,7 @@ const SerivesPage = () => {
         imageSrc="assets\meals.png"
         title="Meals on board"
         description="Indulge in a culinary experience in the sky by choosing your meal"
-        link="Seatreservation"
+        link="MealsOnBoard"
         linkText="Choose your meal"
       />
       </div>
