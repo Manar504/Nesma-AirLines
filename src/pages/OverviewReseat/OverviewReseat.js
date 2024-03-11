@@ -4,7 +4,7 @@ import Reseat from '../../components/Reseat/Reseat'
 
 const OverviewReseat = () => {
   return (
-    <div className='continar' style={{height:"200vh"}}>  
+    <div className='continar' style={{height:"300vh"}}>  
     <div>
     <div className='Cover'>    
     
