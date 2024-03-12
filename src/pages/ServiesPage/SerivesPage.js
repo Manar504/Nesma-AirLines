@@ -39,7 +39,7 @@ const SerivesPage = () => {
         imageSrc="assets\Additional Baggage.png"
         title="Additional Baggage"
         description="Choose a seat with more legroom and be one of the first passengers to disembark."
-        link="Seatreservation"
+        link="AdditionalBaggage"
         linkText="Add baggage"
       />
       </div> 

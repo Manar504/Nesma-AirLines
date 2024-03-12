@@ -10,6 +10,7 @@ import AirPlanData from './pages/AirPLanData/AirPlanData';
 import OverviewCheckout from './pages/OverviewCheckout/OverviewCheckout';
 import OverviewReseat from './pages/OverviewReseat/OverviewReseat';
 import MealsOnBoard from './pages/MealsOnBoard/MealsOnBoard';
+import AdditionalBaggage from './pages/AdditionalBaggage/AdditionalBaggage';
 
 
 function App() {
@@ -24,7 +25,8 @@ function App() {
       <Route path='AirPlanData' element={<AirPlanData/>}/> 
       <Route path='OverviewCheckout' element={<OverviewCheckout/>} /> 
       <Route path='OverviewReseat' element={<OverviewReseat/>}/> 
-      <Route path='MealsOnBoard' element={<MealsOnBoard/>}/>
+      <Route path='MealsOnBoard' element={<MealsOnBoard/>}/> 
+      <Route path="AdditionalBaggage" element={<AdditionalBaggage/>}/>
     
      </Routes> 
      </div>
