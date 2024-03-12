@@ -19,61 +19,52 @@ const PetsCard = () => {
           </div>
 
           <div className="d-flex justify-content-between lh-condensed">
-  <div className="flex-fill">
-    <p
-      className="text-start mb-0"
-      style={{ fontSize: "12px", fontWeight: "600" }}
-    >
-      Your pet can travel with you in the cabin! Take advantage of our
-      best rate. This service is reserved for animals whose weight,
-      including the cage, does not exceed 7 kg.
-    </p>
-  </div>
-  <div className="d-flex align-items-start">
-    <span
-      style={{ fontSize: "13px", fontWeight: "600" }}
-      className="text-muted m-0"
-    >
-      600EGP
-    </span>
-    <input type="checkbox" className="ms-2" />
-  </div>
-</div>
-
-
-
-          <div className="d-flex justify-content-between lh-condensed">
-            <div>
+            <div className="flex-fill">
               <p
-                className="text"
+                className="text-start mb-0"
                 style={{ fontSize: "12px", fontWeight: "600" }}
               >
-                No baggage
+                Your pet can travel with you in the cabin! Take advantage of our
+                best rate. This service is reserved for animals whose weight,
+                including the cage, does not exceed 7 kg.
               </p>
             </div>
-            <span
-              style={{ fontSize: "13px", fontWeight: "600" }}
-              className="text-muted"
-            >
-              {" "}
-              <input type="radio" /> 0 EGP
-            </span>
+            <div className="d-flex align-items-start">
+              <span
+                style={{ fontSize: "13px", fontWeight: "600" }}
+                className="text-muted m-0"
+              >
+                600EGP
+              </span>
+              <input type="checkbox" className="ms-2" />
+            </div>
           </div>
-          <div className="d-flex justify-content-between lh-condensed">
-            <div>
-              <h6>Oversized baggage</h6>
-            </div>
 
-            <div className="text-end">
-              <img
-                src="assets/plus.png"
-                style={{ width: "15px" }}
-                alt="Plus Icon"
-              />
-              <Link to="AdditionalBaggage" className="getActionCard">
-                Add additional baggage
-              </Link>
+          <h5 style={{ marginTop: "40px" }} className="text-start">
+            Animal in the hold
+          </h5>
+          <div className="d-flex justify-content-between lh-condensed">
+            <div className="flex-fill">
+              <p
+                className="text-start mb-0"
+                style={{ fontSize: "12px", fontWeight: "600" }}
+              >
+                Your pet can travel with you in the cabin! Take advantage of our
+                best rate. This service is reserved for animals whose weight,
+                including the cage, does not exceed 7 kg.
+              </p>
             </div>
+            <div className="d-flex align-items-start">
+              <span
+                style={{ fontSize: "13px", fontWeight: "600" }}
+                className="text-muted m-0"
+              >
+                600EGP
+              </span>
+              <input type="checkbox" className="ms-2" />
+            </div>
+          </div>
+          
           </div>
 
           <hr />
@@ -81,7 +72,7 @@ const PetsCard = () => {
           <div className="text-end py-2">
             <span style={{ fontSize: "20px" }} className="EGP">
               {" "}
-              1250 EGP
+              2250 EGP
             </span>
           </div>
           <div className="text-end">
@@ -91,11 +82,11 @@ const PetsCard = () => {
             </span>
           </div>
           <div className="d-flex justify-content-end">
-            <button className="btn">Add baggage </button>
+            <button className="btn">Reserve </button>
           </div>
         </div>
       </div>
-    </div>
+   
   );
 };
 

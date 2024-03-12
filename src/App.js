@@ -12,6 +12,8 @@ import OverviewReseat from './pages/OverviewReseat/OverviewReseat';
 import MealsOnBoard from './pages/MealsOnBoard/MealsOnBoard';
 import AdditionalBaggage from './pages/AdditionalBaggage/AdditionalBaggage';
 import Pets from './pages/pets/Pets';
+import SpecialEquipment from './pages/SpecialEquipment/SpecialEquipment';
+import AirportLounge from './pages/AirportLounge/AirportLounge';
 
 
 function App() {
@@ -28,7 +30,9 @@ function App() {
       <Route path='OverviewReseat' element={<OverviewReseat/>}/> 
       <Route path='MealsOnBoard' element={<MealsOnBoard/>}/> 
       <Route path="AdditionalBaggage" element={<AdditionalBaggage/>}/> 
-      <Route path='Pets' element={<Pets/>}/>
+      <Route path='Pets' element={<Pets/>}/> 
+      <Route path='SpecialEquipment' element={<SpecialEquipment/>}/> 
+      <Route  path='AirportLounge' element={<AirportLounge/>}/>
     
      </Routes> 
      </div>

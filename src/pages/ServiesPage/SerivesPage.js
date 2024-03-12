@@ -61,7 +61,7 @@ const SerivesPage = () => {
         imageSrc="assets\Special equipment.png"
         title="Special equipment"
         description="Choose a seat with more legroom and be one of the first passengers to disembark."
-        link="Seatreservation"
+        link="SpecialEquipment"
         linkText="Add Special equipment"
       />
       </div>
@@ -70,7 +70,7 @@ const SerivesPage = () => {
         imageSrc="assets\Airport lounge.png"
         title="Airport lounge"
         description="Choose a seat with more legroom and be one of the first passengers to disembark."
-        link="Seatreservation"
+        link="AirportLounge"
         linkText="Add Airport lounge"
       />
       </div> 
