@@ -11,6 +11,7 @@ import OverviewCheckout from './pages/OverviewCheckout/OverviewCheckout';
 import OverviewReseat from './pages/OverviewReseat/OverviewReseat';
 import MealsOnBoard from './pages/MealsOnBoard/MealsOnBoard';
 import AdditionalBaggage from './pages/AdditionalBaggage/AdditionalBaggage';
+import Pets from './pages/pets/Pets';
 
 
 function App() {
@@ -26,7 +27,8 @@ function App() {
       <Route path='OverviewCheckout' element={<OverviewCheckout/>} /> 
       <Route path='OverviewReseat' element={<OverviewReseat/>}/> 
       <Route path='MealsOnBoard' element={<MealsOnBoard/>}/> 
-      <Route path="AdditionalBaggage" element={<AdditionalBaggage/>}/>
+      <Route path="AdditionalBaggage" element={<AdditionalBaggage/>}/> 
+      <Route path='Pets' element={<Pets/>}/>
     
      </Routes> 
      </div>

@@ -52,7 +52,7 @@ const SerivesPage = () => {
         imageSrc="assets\Pets.png"
         title="Pets"
         description="Choose a seat with more legroom and be one of the first passengers to disembark."
-        link="Seatreservation"
+        link="Pets"
         linkText="Add Pets"
       />
       </div> 
