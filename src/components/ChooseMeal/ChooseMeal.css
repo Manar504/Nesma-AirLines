@@ -1,6 +1,6 @@
 .big{
     background-color: white; 
-    height: 70vh; 
+    height: 120vh; 
     margin-top: 40px; 
     width: 70%; 
     padding: 30px;
@@ -9,4 +9,82 @@
 .imgs{
     width: 90%;
    
-}
+} 
+
+.EGP{
+    color: darkslategray; 
+    font-weight: 600;
+} 
+
+
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .big {
+    max-width: 1140px;
+  }
+  
+  .meal-selection {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: space-between;
+  }
+  
+  .meal-option {
+    flex-basis: calc(50% - 10px); /* Subtracting margin */
+    margin-bottom: 20px;
+  }
+  
+  .meal-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .meal-info-icon {
+    font-size: 13px;
+    color: gray;
+    position: absolute;
+    margin-top: 5px;
+    right: 10px;
+  }
+  
+  .meal-label {
+    display: flex;
+    align-items: center;
+    color: gray;
+  }
+  
+  input[type='radio'] {
+    margin-right: 10px;
+  }
+  
+  .price-difference {
+    margin-left: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .big {
+     width: 100%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .big {
+        width: 100%;
+      }
+   
+  }
+  
+  .btn{
+    background-color: #FECD42 !important;   
+    border-radius: 20px!important;
+    width: 200px; 
+    margin-top: 2rem; 
+    font-weight:600 !important;
+   
+  }

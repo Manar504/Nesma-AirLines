@@ -1,5 +1,6 @@
 import React from "react";
-import ChooseMeal from "../../components/ChooseMeal/ChooseMeal";
+import ChooseMeal from "../../components/ChooseMeal/ChooseMeal"; 
+import "./MealsOnBoard.css"
 
 const MealsOnBoard = () => {
   return (
@@ -14,7 +15,7 @@ const MealsOnBoard = () => {
           </h3>
         </div>
         <div
-          style={{ width: "70%", height: "100vh", marginTop: "50px" }}
+          style={{ width: "70%", height: "200vh", marginTop: "50px" }}
           className="container text-start"
         >
           <p className="text" style={{width:"80%"}}>
