@@ -30,7 +30,7 @@
           <div className="card">
             <div className="card-header p-0">
               <h2 className="mb-0">
-                <button className="btn btn-light btn-block text-left p-3 rounded-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <button className="text-left buton1" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                   <div className="d-flex align-items-center justify-content-between">
                     <span>Credit card</span>
                     <div className="icons">

@@ -1,0 +1,13 @@
+/* Nav.css */
+.navbar {
+    background-color: transparent !important; /* Ensure navbar is transparent */
+    position: absolute; /* Position over the image */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10; /* Higher index to ensure it's above the image */
+  }
+  
+  /* Add styles for links, logo, etc., to match the design in the image */
+  
+  

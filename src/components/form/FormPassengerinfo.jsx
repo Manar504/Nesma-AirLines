@@ -58,7 +58,7 @@ const FormPassengerinfo = () => {
   <div className="form-check d-flex justify-content-end mb-4">
   <div className='text-end'>
 <img src='assets\plus.png' style={{width:"15px"}}></img>
-      <Link to="Seatreservation" className="getActionCard">Add Passenger</Link> 
+      <Link to="" className="getActionCard">Add Passenger</Link> 
       </div>
   </div> 
   <div>

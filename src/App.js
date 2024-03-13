@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import SerivesPage from './pages/ServiesPage/SerivesPage';
 import Nav from './components/Nav/Nav';
@@ -17,6 +17,7 @@ import AirportLounge from './pages/AirportLounge/AirportLounge';
 import UnaccompaniedMinor from './pages/UnaccompaniedMinor/UnaccompaniedMinor';
 import PriorityCheckIn from './pages/PriorityCheckIn/PriorityCheckIn';
 import PriorityBoarding from './pages/PriorityBoarding/PriorityBoarding';
+import PassngerData2 from './pages/passngerData2/PassngerData2';
 
 
 function App() {
@@ -38,7 +39,8 @@ function App() {
       <Route  path='AirportLounge' element={<AirportLounge/>}/> 
       <Route path='UnaccompaniedMinor' element={<UnaccompaniedMinor/>}/> 
       <Route path='PriorityCheckIn' element={<PriorityCheckIn/>}/> 
-      <Route path='PriorityBoarding' element={<PriorityBoarding/>} />
+      <Route path='PriorityBoarding' element={<PriorityBoarding/>} /> 
+      <Route path='PassngerData2' element={<PassngerData2/>}/>
     
      </Routes> 
      </div>

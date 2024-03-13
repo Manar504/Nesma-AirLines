@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom' ; 
+import "./Nav.css"
 
 const Nav = () => {
   return (
@@ -49,4 +50,4 @@ const Nav = () => {
   )
 }
 
-export default Nav
+export default Nav ; 
