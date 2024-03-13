@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react'; 
+import "./UnaccompaniendMinorCard.css"
 
 const UnaccompaniendMinorCard = () => {
   return (
     <div>
-      <div className="continar big">
+      <div className="continar big6">
         <h5>Adult 1</h5>
         <div className="continar text-center">
           <div className="row">

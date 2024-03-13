@@ -6,7 +6,7 @@ import "./AdditionalBaggageCard.css"
 const AdditionalBaggageCard = () => {
   return (
     <div>
-      <div className='continar big'>
+      <div className='continar big2'>
        <h5>Adult 1</h5> 
        <div className='continar text-center'> 
        <div className='row'>

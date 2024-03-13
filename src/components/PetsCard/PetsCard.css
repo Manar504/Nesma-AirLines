@@ -2,10 +2,17 @@
     display: inline;
 } 
 
-.big{
+.big3{
     background-color: white; 
     height: 110vh !important; 
     margin-top: 40px; 
     width: 80%; 
     padding: 20px;
-}
+} 
+
+@media (max-width: 700px) {
+    .big3 {
+       height: 190vh !important;
+        
+    }
+  }

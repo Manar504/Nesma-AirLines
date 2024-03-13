@@ -1,10 +1,17 @@
-.big{
+.big1{
     background-color: white; 
-    height: 120vh; 
+    height: 120vh!important;
     margin-top: 40px; 
     width: 70%; 
     padding: 30px;
-} 
+}  
+
+@media (max-width: 700px) {
+  .big1 {
+      height: 150vh !important; 
+      
+  }
+}
 
 .imgs{
     width: 90%;

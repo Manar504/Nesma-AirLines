@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react'; 
+import "./PriorityCheckInCard.css"
 
 const PriorityCheckInCard = () => {
   return (
     <div>
-    <div className="continar big">
+    <div className="continar big7">
       <h5>Adult 1</h5>
       <div className="continar text-center">
         <div className="row">
@@ -23,7 +24,7 @@ const PriorityCheckInCard = () => {
             </h5>
            
          </div> 
-         <span style={{fontSize:"13px",fontWeight:"600"}} className="text-muted"> <input type="radio" />  400 EGP</span>
+         <span style={{fontSize:"13px",fontWeight:"600"}} className="text-muted"> <input  type="radio" />  400 EGP</span>
         
        </div> 
         
