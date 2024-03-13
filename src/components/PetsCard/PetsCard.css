@@ -4,7 +4,7 @@
 
 .big{
     background-color: white; 
-    height: 110vh; 
+    height: 110vh !important; 
     margin-top: 40px; 
     width: 80%; 
     padding: 20px;
