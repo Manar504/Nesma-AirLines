@@ -14,6 +14,9 @@ import AdditionalBaggage from './pages/AdditionalBaggage/AdditionalBaggage';
 import Pets from './pages/pets/Pets';
 import SpecialEquipment from './pages/SpecialEquipment/SpecialEquipment';
 import AirportLounge from './pages/AirportLounge/AirportLounge';
+import UnaccompaniedMinor from './pages/UnaccompaniedMinor/UnaccompaniedMinor';
+import PriorityCheckIn from './pages/PriorityCheckIn/PriorityCheckIn';
+import PriorityBoarding from './pages/PriorityBoarding/PriorityBoarding';
 
 
 function App() {
@@ -32,7 +35,10 @@ function App() {
       <Route path="AdditionalBaggage" element={<AdditionalBaggage/>}/> 
       <Route path='Pets' element={<Pets/>}/> 
       <Route path='SpecialEquipment' element={<SpecialEquipment/>}/> 
-      <Route  path='AirportLounge' element={<AirportLounge/>}/>
+      <Route  path='AirportLounge' element={<AirportLounge/>}/> 
+      <Route path='UnaccompaniedMinor' element={<UnaccompaniedMinor/>}/> 
+      <Route path='PriorityCheckIn' element={<PriorityCheckIn/>}/> 
+      <Route path='PriorityBoarding' element={<PriorityBoarding/>} />
     
      </Routes> 
      </div>

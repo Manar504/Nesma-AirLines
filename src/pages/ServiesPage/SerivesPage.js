@@ -83,7 +83,7 @@ const SerivesPage = () => {
         imageSrc="assets\Unaccompanied minor.png"
         title="Unaccompanied minor"
         description="Choose a seat with more legroom and be one of the first passengers to disembark."
-        link="Seatreservation"
+        link="UnaccompaniedMinor"
         linkText="Add Unaccompanied minor"
       />
       </div> 
@@ -92,7 +92,7 @@ const SerivesPage = () => {
         imageSrc="assets\Priority Check-in.png"
         title="Priority Check-in"
         description="Choose a seat with more legroom and be one of the first passengers to disembark."
-        link="Seatreservation"
+        link="PriorityCheckIn"
         linkText="Add Priority Check-in"
       />
       </div> 
@@ -101,7 +101,7 @@ const SerivesPage = () => {
         imageSrc="assets\Priority boarding.png"
         title="Priority boarding"
         description="Choose a seat with more legroom and be one of the first passengers to disembark."
-        link="Seatreservation"
+        link="PriorityBoarding"
         linkText="Add Priority boarding"
       />
       </div>
