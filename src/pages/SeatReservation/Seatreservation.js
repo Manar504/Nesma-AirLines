@@ -4,17 +4,13 @@ import AirplaneBody from "../../components/airplane/AirplaneBody";
 import ChooseSeatsConformationCard from "../../components/ChooseSeatsConformationCard/ChooseSeatsConformationCard";
 
 const Seatreservation = () => { 
-  const seatMapData = [
-    { number: '1A', isOccupied: false },
-    { number: '1B', isOccupied: true },
-    // Add all your seats here
-  ]; 
-
-  const rows = []; 
   const handleSelectSeat = (seatNumber) => {
     console.log(`Seat ${seatNumber} selected`);
-    // Add your logic for seat selection here
+    // Your logic for seat selection here
   };
+
+  // Prepare the rows for the airplane body
+  const rows = prepareSeatRows();
   return (
     <div className="container-fluid">
       <div
@@ -57,12 +53,23 @@ const Seatreservation = () => {
         
         <div >
       <AirplaneBody rows={rows} onSelectSeat={handleSelectSeat} />   
-      {/* <div className="Conformation"><ChooseSeatsConformationCard/></div> */}
+      <div className="Conformation"><ChooseSeatsConformationCard/></div>
     </div>
       </div> 
       
     </div>
   );
-};
+};  
+
+
+function prepareSeatRows() {
+  // Prepare your seat data here
+  // This is an example, you will need to create the structure according to your seats arrangement
+  const seatRows = [
+    [{ number: '1A', isOccupied: false },{ number: '2A', isOccupied: false }],
+    // ... more rows
+  ];
+  return seatRows;
+}
 
 export default Seatreservation;

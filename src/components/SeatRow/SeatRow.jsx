@@ -1,12 +1,12 @@
 // SeatRow.js
 import React from 'react';
 import Seat from '../Seat/Seat';
-import './SeatRow.css'; // Assuming you have a CSS file for styles
+import './SeatRow.css'; // Make sure to create a SeatRow.css file with the styles
 
 const SeatRow = ({ row, onSelectSeat }) => {
   return (
     <div className="seat-row">
-      {row.map((seat) => (
+      {row.map(seat => (
         <Seat
           key={seat.number}
           seatNumber={seat.number}
@@ -19,3 +19,5 @@ const SeatRow = ({ row, onSelectSeat }) => {
 };
 
 export default SeatRow;
+
+

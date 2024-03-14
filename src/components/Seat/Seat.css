@@ -1,15 +1,19 @@
+/* Seat.css */
 .seat {
-    width: 30px;
-    height: 30px;
-    margin: 2px;
-    background-color: #eee;
-    display: inline-block;
-    text-align: center;
-    line-height: 30px;
-    cursor: pointer;
-  }
-  
-  .occupied {
-    background-color: red;
-  }
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  text-align: center;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.seat.available {
+  background-color: blue; /* Change as needed */
+}
+
+.seat.occupied {
+  background-color: gray; /* Change as needed */
+}
+
   

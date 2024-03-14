@@ -1,9 +1,9 @@
 // Seat.js
 import React from 'react';
-import './Seat.css'; // Assuming you have a CSS file for styles
+import './Seat.css'; // Make sure to create a Seat.css file with the styles
 
 const Seat = ({ seatNumber, isOccupied, onSelectSeat }) => {
-  const seatClass = isOccupied ? 'seat occupied' : 'seat';
+  const seatClass = `seat ${isOccupied ? 'occupied' : 'available'}`;
   return (
     <div className={seatClass} onClick={() => onSelectSeat(seatNumber)}>
       {seatNumber}
@@ -12,3 +12,4 @@ const Seat = ({ seatNumber, isOccupied, onSelectSeat }) => {
 };
 
 export default Seat;
+
