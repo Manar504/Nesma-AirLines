@@ -26,7 +26,7 @@ const Seatreservation = () => {
         </h3>
       </div>
       <div
-        style={{ width: "100%", height: "100vh", marginTop: "50px" }}
+        style={{ width: "100%", height: "300vh", marginTop: "50px" }}
         className="container text-start"
       >
         <p className="text" style={{width:"70%"}}>
@@ -57,7 +57,7 @@ const Seatreservation = () => {
         
         <div >
       <AirplaneBody rows={rows} onSelectSeat={handleSelectSeat} />   
-      <div className="Conformation"><ChooseSeatsConformationCard/></div>
+      {/* <div className="Conformation"><ChooseSeatsConformationCard/></div> */}
     </div>
       </div> 
       
