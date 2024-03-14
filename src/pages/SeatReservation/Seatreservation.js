@@ -1,6 +1,7 @@
 import React from "react"; 
 import "./Seatreservation.css" ;
 import AirplaneBody from "../../components/airplane/AirplaneBody";
+import ChooseSeatsConformationCard from "../../components/ChooseSeatsConformationCard/ChooseSeatsConformationCard";
 
 const Seatreservation = () => { 
   const seatMapData = [
@@ -25,7 +26,7 @@ const Seatreservation = () => {
         </h3>
       </div>
       <div
-        style={{ width: "70%", height: "100vh", marginTop: "50px" }}
+        style={{ width: "100%", height: "100vh", marginTop: "50px" }}
         className="container text-start"
       >
         <p className="text" style={{width:"70%"}}>
@@ -50,10 +51,13 @@ const Seatreservation = () => {
         <div>
           <img style={{width:"15px" ,backgroundColor:"gray" }} src="assets\gray.png"/> 
           <span style={{fontSize:"12px", margin:"10px" }}>Taken</span>
-        </div> 
-        </div> 
-        <div className="app">
-      <AirplaneBody rows={rows} onSelectSeat={handleSelectSeat} />
+        </div>  
+       
+        </div>  
+        
+        <div >
+      <AirplaneBody rows={rows} onSelectSeat={handleSelectSeat} />   
+      <div className="Conformation"><ChooseSeatsConformationCard/></div>
     </div>
       </div> 
       

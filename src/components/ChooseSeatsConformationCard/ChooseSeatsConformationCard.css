@@ -1,0 +1,50 @@
+.checkbox{
+    display: inline;
+} 
+
+.big9{
+    background-color:white; 
+    height: 60vh !important; 
+    margin-top: 40px; 
+    width: 30%; 
+    padding: 20px;
+} 
+
+@media (max-width: 700px) {
+    .big9 {
+       height: 70vh !important; 
+       width: 50%;
+        
+    }
+  } 
+
+  .city{
+    color: var(--Color-Text-Body-2, #4A5970);
+font-feature-settings: 'calt' off, 'liga' off;
+
+
+
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 24px */
+  } 
+
+
+  .arrow{
+    color: #000C23; 
+    font-weight: 800 !important;
+  } 
+
+  .button2{
+    background-color: #FECD42; 
+    border: none; 
+    border-radius:20px; 
+    width: 300px; 
+    font-weight: 600; 
+    color: #000C23; 
+    padding: 5px;
+  } 
+
+
+  
