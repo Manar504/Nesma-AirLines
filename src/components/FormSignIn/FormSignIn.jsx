@@ -20,7 +20,8 @@ const FormSignIn = () => {
       <br/> 
       <div className='d-flex justify-content-between'>
       <p style={{color:"gray" ,fontSize:"14px"}}> <input type='checkbox'/> Save login credentials</p>  
-      <p style={{color:"gray" ,fontSize:"14px"}} > Forgot password?</p> 
+     
+      <Link style={{color:"gray" ,fontSize:"14px"}} > Forgot password?</Link>
       </div>
  
       <Link to={"/PassngerData"} style={{width:"100%" ,backgroundColor:"#FECD42" ,border:"none"}} className='btn'>Login</Link>
