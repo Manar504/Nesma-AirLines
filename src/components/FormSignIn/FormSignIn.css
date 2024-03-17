@@ -1,0 +1,12 @@
+.para3{
+    color: var(--Color-Text-body-3, #637289);
+text-align: center;
+font-feature-settings: 'calt' off, 'liga' off;
+
+/* Mulish/12/Medium */
+font-family: Mulish;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 18px */
+}

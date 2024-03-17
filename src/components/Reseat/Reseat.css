@@ -1,4 +1,14 @@
 .info{
     font-weight: 600; 
     font-size: 14px;
+} 
+
+
+
+@media (max-width: 700px){ 
+
+    .big-reseat{
+        display: none;
+    }
+    
 }

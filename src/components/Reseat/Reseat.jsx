@@ -5,7 +5,7 @@ import "./Reseat.css"
 
 const Reseat = () => {
   return (
-    <div>
+    <div className='big-reseat'>
       <div className="container rounded-3 text-center d-flex" style={{width:"60%" , backgroundColor:"white" ,padding:"20px" }}> 
   <div className="row"> 
   
@@ -133,7 +133,7 @@ const Reseat = () => {
           <span style={{fontSize:"13px"}} className="text-muted my-1">+20 102331487002</span>
         </li> 
       </ul> 
-     
+      
     </div>
    
     

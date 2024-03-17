@@ -18,6 +18,7 @@ import UnaccompaniedMinor from './pages/UnaccompaniedMinor/UnaccompaniedMinor';
 import PriorityCheckIn from './pages/PriorityCheckIn/PriorityCheckIn';
 import PriorityBoarding from './pages/PriorityBoarding/PriorityBoarding';
 import PassngerData2 from './pages/passngerData2/PassngerData2';
+import SignIn from './pages/SignIn/SignIn';
 
 
 function App() {
@@ -40,7 +41,8 @@ function App() {
       <Route path='UnaccompaniedMinor' element={<UnaccompaniedMinor/>}/> 
       <Route path='PriorityCheckIn' element={<PriorityCheckIn/>}/> 
       <Route path='PriorityBoarding' element={<PriorityBoarding/>} /> 
-      <Route path='PassngerData2' element={<PassngerData2/>}/>
+      <Route path='PassngerData2' element={<PassngerData2/>}/> 
+      <Route path='SignIn' element={<SignIn/>}/>
     
      </Routes> 
      </div>

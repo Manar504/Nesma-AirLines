@@ -29,10 +29,10 @@ const Nav = () => {
     </div>  
 
    
-    
+ 
     <div className="d-flex align-items-center mx-5">
     
-      <Link className="text-reset me-1 " to="PassngerData">
+      <Link className="text-reset me-1 " to="SignIn">
       <i className="fa-regular fa-user"></i>  
       </Link> 
       Sign in 
