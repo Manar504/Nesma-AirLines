@@ -5,7 +5,8 @@
   margin: 5px;
   text-align: center;
   line-height: 20px;
-  cursor: pointer;
+  cursor: pointer; 
+  z-index: 1000;
 }
 
 .seat.available {

@@ -2,16 +2,17 @@
 .airplane-body {
     display: flex;
     flex-direction: column;
-    align-items: center; /* This will center the children horizontally */
-    justify-content:start; /* This will center the children vertically if desired */ 
+    align-items: start; /* This will center the children horizontally */
+    justify-content:center; /* This will center the children vertically if desired */ 
    
   } 
 
 
   .red{
-    transform: translate(0px, 50px); 
+    transform: translate(265px, 50px); 
     z-index: 200;
   }
+
 
   
   

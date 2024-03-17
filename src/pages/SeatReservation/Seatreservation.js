@@ -66,7 +66,8 @@ function prepareSeatRows() {
   // Prepare your seat data here
   // This is an example, you will need to create the structure according to your seats arrangement
   const seatRows = [
-    [{ number: '1A', isOccupied: false },{ number: '2A', isOccupied: false }],
+    [{ number: '1A', isOccupied: false },{ number: '2A', isOccupied: false } , { number: '3A', isOccupied: false } ,
+    { number: '4A', isOccupied: false } ,{ number: '5A', isOccupied: false }],
     // ... more rows
   ];
   return seatRows;
