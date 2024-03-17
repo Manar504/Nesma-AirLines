@@ -15,4 +15,7 @@
 
 
   
-  
+  @media (max-width: 700px) {
+    .airplane-body {
+      display: none;
+    } }
