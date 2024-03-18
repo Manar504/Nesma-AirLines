@@ -15,8 +15,8 @@ const Cards = ({ imageSrc, title, description, link, linkText }) => {
         </h4>
         <p className="card-text">{description}</p> 
         <div className='text-end'>
-          <img src='assets/plus.png' style={{width: "15px"}} alt="Plus Icon" />
-          <Link to={link} className="getActionCard">{linkText}</Link> 
+          <img src='assets/plus.png' style={{width: "15px"}} alt="Plus Icon"/>
+          <Link to={link} className="getActionCard mx-2">{linkText}</Link> 
         </div>
       </div>
     </div>
