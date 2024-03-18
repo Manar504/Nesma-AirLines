@@ -33,19 +33,19 @@ const Seatreservation = () => {
         </p>  
         <div className="d-flex">
         <div>
-          <img style={{width:"15px" ,backgroundColor:"green"}} src="assets\green.png"/> 
+          <img style={{width:"15px" ,backgroundColor:"green"}} src="assets\green2.png"/> 
           <span style={{fontSize:"12px", margin:"10px" }}>Selected</span>
         </div>  
         <div>
-          <img style={{width:"15px" ,backgroundColor:"purple"}} src="assets\purple.png"/> 
+          <img style={{width:"15px" ,backgroundColor:"purple"}} src="assets\parbel12.png"/> 
           <span style={{fontSize:"12px", margin:"10px" }}>Suggestion</span>
         </div> 
         <div>
-          <img style={{width:"15px" ,backgroundColor:"blue"}} src="assets\blue.png"/> 
+          <img style={{width:"15px" ,backgroundColor:"blue"}} src="assets\blue2.png"/> 
           <span style={{fontSize:"12px", margin:"10px" }}>Standerd</span>
         </div>  
         <div>
-          <img style={{width:"15px" ,backgroundColor:"gray" }} src="assets\gray.png"/> 
+          <img style={{width:"15px" ,backgroundColor:"gray" }} src="assets\gray2.png"/> 
           <span style={{fontSize:"12px", margin:"10px" }}>Taken</span>
         </div>  
        
