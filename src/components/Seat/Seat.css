@@ -9,12 +9,7 @@
   z-index: 1000;
 }
 
-.seat.available {
-  background-color: blue; /* Change as needed */
-}
 
-.seat.occupied {
-  background-color: gray; /* Change as needed */
-}
+
 
   
