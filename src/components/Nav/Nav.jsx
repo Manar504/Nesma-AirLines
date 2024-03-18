@@ -33,9 +33,9 @@ const Nav = () => {
     <div className="d-flex align-items-center mx-5">
     
       <Link className="text-reset me-1 " to="SignIn">
-      <i className="fa-regular fa-user"></i>  
+      <i className="fa-regular fa-user"> </i>  
       </Link> 
-      Sign in 
+     <Link to="SignIn" className="text-reset me-1" style={{textDecoration:"none"}}> Sign in </Link> 
       
       
     
