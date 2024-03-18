@@ -12,7 +12,8 @@ const Reseat = () => {
     <h2> <img style={{width:"60px"}} src='assets\succ.png'/>  Successful</h2> 
     <p style={{fontSize:"14px" ,color:"#4A5970"}}>Successful reservation check your mail </p>
      
-    <div className="col order-md-2 mb-4">  
+    <div className="col order-md-2 mb-4 ">  
+    <div className='nn'>
     <FlightInfo 
   from="CAI" 
   to="RUH" 
@@ -25,7 +26,7 @@ const Reseat = () => {
         arrivalTime="06:45"
         duration="1 Stop, 6h 25m"
       /> 
-
+     </div>
       <div>
       <h6 className='text-start'>Overview</h6> 
       <p className='text-start para'>This overview lists all of the selected options for your booked flight.</p>

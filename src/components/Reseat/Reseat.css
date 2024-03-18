@@ -7,8 +7,13 @@
 
 @media (max-width: 700px){ 
 
-    .big-reseat{
+    .my-1{
+        justify-content: space-around;
+    } 
+
+    .nn{
         display: none;
     }
     
-}
+} 
+
