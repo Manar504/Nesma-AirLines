@@ -12,7 +12,7 @@ const ChooseSeatsConformationCard = () => {
       </div>
     <div className='row d-flex align-content-center' style={{height:"6vh" }}> 
      
-     <span className="city"><img src='assets\green.png'  style={{width:"40px" ,height:"20px" ,backgroundColor:"green"}}/>  27A <span style={{color:"#4A5970", fontSize:"10px"}}>Window</span> </span>
+     <span className="city"><img src='assets\green2.png'  style={{width:"40px" ,height:"20px" }}/>  27A <span style={{color:"#4A5970", fontSize:"10px"}}>Window</span> </span>
 
     </div>  
      <hr/>
