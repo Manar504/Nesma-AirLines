@@ -9,7 +9,10 @@
   z-index: 1000;
 }
 
-
+.seat-row {
+  display: flex;
+  /* Add styles for row spacing and alignment */
+}
 
 
   

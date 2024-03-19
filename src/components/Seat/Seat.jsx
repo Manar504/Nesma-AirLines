@@ -1,15 +1,17 @@
 // Seat.js
 import React from 'react';
-import './Seat.css'; // Make sure to create a Seat.css file with the styles
+import './Seat.css'; // Make sure your CSS file is properly linked
 
-const Seat = ({ seatNumber, isOccupied, onSelectSeat }) => {
-  const seatClass = `seat ${isOccupied ? 'occupied' : 'available'}`;
+const Seat = ({ seatData, onSelectSeat }) => {
+  const seatImageSrc = seatData.isOccupied ? 'path_to_taken_seat_image' : 'path_to_available_seat_image';
+
   return (
-    <div className={seatClass} onClick={() => onSelectSeat(seatNumber)}>
-      {seatNumber}
+    <div className={`seat ${seatData.isOccupied ? 'occupied' : 'available'}`} onClick={() => onSelectSeat(seatData.number)}>
+      <img src={seatImageSrc} style={{ width: "20px" }} alt={seatData.number} />
     </div>
   );
 };
 
 export default Seat;
+
 

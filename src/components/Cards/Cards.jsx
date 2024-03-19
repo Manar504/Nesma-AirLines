@@ -3,7 +3,8 @@ import "./Cards.css";
 import { Link } from 'react-router-dom';
 
 const Cards = ({ imageSrc, title, description, link, linkText }) => {
-  return (
+  return ( 
+    <Link to={link} style={{textDecoration:"none"}}>
     <div className="card container" style={{padding: "0px", marginBottom: "20px"}}>
 
       <img className="card-img-top" src={imageSrc} alt={title} />
@@ -19,7 +20,8 @@ const Cards = ({ imageSrc, title, description, link, linkText }) => {
           <Link to={link} className="getActionCard mx-2">{linkText}</Link> 
         </div>
       </div>
-    </div>
+    </div> 
+    </Link>
   );
 }
 

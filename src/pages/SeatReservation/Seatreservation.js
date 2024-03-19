@@ -1,5 +1,5 @@
 import React from "react"; 
-import "./Seatreservation.css" ;
+import "./Seatreservation.css" ; 
 import AirplaneBody from "../../components/airplane/AirplaneBody";
 import ChooseSeatsConformationCard from "../../components/ChooseSeatsConformationCard/ChooseSeatsConformationCard";
 
@@ -63,14 +63,30 @@ const Seatreservation = () => {
 
 
 function prepareSeatRows() {
-  // Prepare your seat data here
-  // This is an example, you will need to create the structure according to your seats arrangement
-  const seatRows = [
-    [{ number: <img src="assets\blue2.png" style={{width:"20px"}}/>, isOccupied: false },{ number: <img src="assets\green2.png" style={{width:"20px"}}/>, isOccupied: false } , { number: <img src="assets\gray2.png" style={{width:"20px"}}/>, isOccupied: false } ,
-   ],
-    // ... more rows
-  ];
-  return seatRows;
+  // Define seat images for both available and taken seats
+  const availableSeatImg = "assets/green2.png"; // Replace with your image path
+  const takenSeatImg = "assets/parbel12.png"; // Replace with your image path
+
+  // Assume you have 37 rows and 7 seats per row (A to G)
+  const rows = [...Array(37)].map((_, rowIndex) => {
+    return [...Array(6)].map((_, seatIndex) => {
+      // Randomly determine if a seat is occupied for demonstration purposes
+      const isOccupied = Math.random() < 0.5;
+      const seatNumber = `${rowIndex + 1}${String.fromCharCode(65 + seatIndex)}`;
+      const seatImage = isOccupied ? takenSeatImg : availableSeatImg;
+      
+      return {
+        // number: seatNumber,
+        isOccupied: isOccupied,
+        image: seatImage,
+      };
+    });
+  });
+
+  return rows;
 }
+
+
+
 
 export default Seatreservation;

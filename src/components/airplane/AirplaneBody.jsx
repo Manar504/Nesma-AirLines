@@ -6,7 +6,7 @@ const AirplaneBody = ({ rows, onSelectSeat }) => {
     <div className="airplane-body">
      
  
-<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 434 296" fill="none" className='mt-5 red'>
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="150" viewBox="0 0 434 296" fill="none" className='mt-5 red'>
   <path d="M74.9557 229.32C101.014 138.839 167.604 50.1425 200.711 9.87353C211.063 -2.71802 229.542 -3.26073 240.557 8.75505C276.861 48.357 350.423 137.504 370.787 229.32C509.717 855.739 376.315 1818.52 376.315 1818.52L335.536 2019H117.119L74.9557 1818.52C74.9557 1818.52 -93.6947 814.912 74.9557 229.32Z" fill="#D32A2A"/>
 </svg>  
  
