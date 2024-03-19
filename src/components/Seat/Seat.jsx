@@ -1,17 +1,16 @@
-// Seat.js
 import React from 'react';
 import './Seat.css'; // Make sure your CSS file is properly linked
 
 const Seat = ({ seatData, onSelectSeat }) => {
-  const seatImageSrc = seatData.isOccupied ? 'path_to_taken_seat_image' : 'path_to_available_seat_image';
-
+  // Use the image path from seatData to set as the src for img tag
   return (
     <div className={`seat ${seatData.isOccupied ? 'occupied' : 'available'}`} onClick={() => onSelectSeat(seatData.number)}>
-      <img src={seatImageSrc} style={{ width: "20px" }} alt={seatData.number} />
+      <img src={seatData.image} alt={`Seat ${seatData.number}`} style={{ width: "15px" ,margin:"0px" ,padding:"0px" }} />
     </div>
   );
 };
 
 export default Seat;
+
 
 

@@ -64,27 +64,27 @@ const Seatreservation = () => {
 
 function prepareSeatRows() {
   // Define seat images for both available and taken seats
-  const availableSeatImg = "assets/green2.png"; // Replace with your image path
-  const takenSeatImg = "assets/parbel12.png"; // Replace with your image path
+  const availableSeatImg = "/assets/blue2.png"; // Assuming the assets folder is in the public directory
+  const takenSeatImg = "/assets/parbel12.png"; // Add a leading slash to ensure the path is absolute
 
-  // Assume you have 37 rows and 7 seats per row (A to G)
-  const rows = [...Array(37)].map((_, rowIndex) => {
-    return [...Array(6)].map((_, seatIndex) => {
-      // Randomly determine if a seat is occupied for demonstration purposes
+  // Assume you have 37 rows and 6 seats per row
+  const rows = [...Array(30)].map((_, rowIndex) => {
+    return [...Array(4)].map((_, seatIndex) => {
       const isOccupied = Math.random() < 0.5;
       const seatNumber = `${rowIndex + 1}${String.fromCharCode(65 + seatIndex)}`;
       const seatImage = isOccupied ? takenSeatImg : availableSeatImg;
-      
+
       return {
-        // number: seatNumber,
+        number: seatNumber, // Include the seat number if needed
         isOccupied: isOccupied,
-        image: seatImage,
+        image: seatImage, // Store just the image path
       };
     });
   });
 
   return rows;
 }
+
 
 
 
