@@ -11,4 +11,8 @@
         height: 130vh !important; 
         
     }
+  } 
+
+  .btn:hover{
+    scale:1.2;
   }

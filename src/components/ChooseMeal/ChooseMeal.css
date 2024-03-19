@@ -94,4 +94,8 @@
     margin-top: 2rem; 
     font-weight:600 !important;
    
+  } 
+
+  .btn:hover{
+    scale:1.2;
   }
