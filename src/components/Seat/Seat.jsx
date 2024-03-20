@@ -1,11 +1,22 @@
-import React from 'react';
-import './Seat.css'; // Make sure your CSS file is properly linked
+// Seat.js
+import React, { useState } from 'react';
+import './Seat.css'; // Your CSS file
 
 const Seat = ({ seatData, onSelectSeat }) => {
-  // Use the image path from seatData to set as the src for img tag
+  const [isSelected, setIsSelected] = useState(false);
+
+  const handleClick = () => {
+    onSelectSeat(seatData.number); // Call the onSelectSeat callback
+    setIsSelected(!isSelected);    // Toggle the selected state
+  };
+
+  // Determine the image based on the selection state
+  const seatImageSrc = isSelected ? '/assets/green2.png' : seatData.image;
+
   return (
-    <div className={`seat ${seatData.isOccupied ? 'occupied' : 'available'}`} onClick={() => onSelectSeat(seatData.number)}>
-      <img src={seatData.image} alt={`Seat ${seatData.number}`} style={{ width: "15px" ,margin:"0px" ,padding:"0px" }} />
+    // Modify the className in the Seat component
+<div className={`seat ${seatData.isOccupied ? 'occupied' : isSelected ? 'selected' : 'available'}`} onClick={handleClick}>
+      <img src={seatImageSrc} alt={`Seat ${seatData.number}`} style={{ width: "20px" }} />
     </div>
   );
 };
