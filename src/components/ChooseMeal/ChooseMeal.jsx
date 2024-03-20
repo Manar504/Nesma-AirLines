@@ -1,5 +1,6 @@
 import React from 'react';
-import "./ChooseMeal.css"
+import "./ChooseMeal.css"; 
+import { Link } from 'react-router-dom';
 
 const ChooseMeal = () => {
   return (
@@ -58,7 +59,7 @@ const ChooseMeal = () => {
         <span style={{fontSize:"15px" ,}} className='EGP'> .Total price for Meal</span>
        </div> 
        <div className='d-flex justify-content-end'>
-       <button className='btn'>Add the meal</button>
+       <Link to="/" className='btn'>Add the meal</Link>
        </div>
        </div>
       </div>

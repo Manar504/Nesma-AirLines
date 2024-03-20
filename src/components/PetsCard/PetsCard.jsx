@@ -82,7 +82,7 @@ const PetsCard = () => {
             </span>
           </div>
           <div className="d-flex justify-content-end">
-            <button className="btn">Reserve </button>
+            <Link to="/" className="btn">Reserve</Link>
           </div>
         </div>
       </div>

@@ -67,8 +67,9 @@ const AdditionalBaggageCard = () => {
        <div className='text-end'>
         <span style={{fontSize:"15px" ,}} className='EGP'> .Total price for baggage</span>
        </div> 
-       <div className='d-flex justify-content-end'>
-       <button className='btn'>Add baggage </button>
+       <div className='d-flex justify-content-end'> 
+       <Link to="/" className='btn'>Add baggage</Link>
+       
        </div>
        </div>
       </div>
