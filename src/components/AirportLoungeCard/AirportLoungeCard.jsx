@@ -1,5 +1,6 @@
 import React from 'react'; 
 import "./AirportLoungeCard.css"
+import { Link } from 'react-router-dom';
 
 const AirportLoungeCard = () => {
   return (
@@ -44,8 +45,8 @@ const AirportLoungeCard = () => {
               .Total price for baggage
             </span>
           </div>
-          <div className="d-flex justify-content-end">
-            <button className="btn">Reserve </button>
+          <div className="d-flex justify-content-end"> 
+            <Link to="/" className='btn'>Reserve</Link>
           </div>
         </div>
       </div>

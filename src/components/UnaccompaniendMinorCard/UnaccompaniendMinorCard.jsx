@@ -1,5 +1,6 @@
 import React from 'react'; 
-import "./UnaccompaniendMinorCard.css"
+import "./UnaccompaniendMinorCard.css"; 
+import { Link } from 'react-router-dom';
 
 const UnaccompaniendMinorCard = () => {
   return (
@@ -45,7 +46,8 @@ const UnaccompaniendMinorCard = () => {
             </span>
           </div>
           <div className="d-flex justify-content-end">
-            <button className="btn">Reserve </button>
+            
+            <Link className='btn' to="/">Reserve</Link>
           </div>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React from 'react'; 
 import "./PriorityCheckInCard.css"
+import { Link } from 'react-router-dom';
 
 const PriorityCheckInCard = () => {
   return (
@@ -45,7 +46,8 @@ const PriorityCheckInCard = () => {
           </span>
         </div>
         <div className="d-flex justify-content-end">
-          <button className="btn">Reserve </button>
+          
+          <Link  className='btn' to="/"> Reserve </Link>
         </div>
       </div>
     </div>

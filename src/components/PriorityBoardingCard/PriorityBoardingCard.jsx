@@ -1,5 +1,6 @@
 import React from 'react'; 
 import "./PriorityBoardingCard.css"
+import { Link } from 'react-router-dom';
 
 const PriorityBoardingCard = () => {
   return (
@@ -44,8 +45,8 @@ const PriorityBoardingCard = () => {
             .Total price for baggage
           </span>
         </div>
-        <div className="d-flex justify-content-end">
-          <button className="btn">Reserve </button>
+        <div className="d-flex justify-content-end"> 
+          <Link className='btn' to="/">Reserve</Link>
         </div>
       </div>
     </div>
