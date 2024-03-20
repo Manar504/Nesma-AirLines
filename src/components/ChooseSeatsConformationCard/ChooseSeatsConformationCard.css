@@ -37,7 +37,8 @@ line-height: 150%; /* 24px */
   } 
 
   .button2{
-    background-color: #FECD42; 
+    background-color: #FECD42;  
+    text-decoration: none;
     border: none; 
     border-radius:20px; 
     width: 300px; 

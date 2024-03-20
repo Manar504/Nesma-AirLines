@@ -1,5 +1,6 @@
 import React from 'react' ;  
 import "./ChooseSeatsConformationCard.css"
+import { Link } from 'react-router-dom';
 
 const ChooseSeatsConformationCard = () => {
   return (
@@ -51,8 +52,9 @@ const ChooseSeatsConformationCard = () => {
     
     </div>
     <hr/>  
-    <div className='d-flex justify-content-center'>
-    <button className='button2'>Choose this seat</button> 
+    <div className='d-flex justify-content-center'> 
+    <Link className='button2 text-center' to="/PassngerData">Choose this seat</Link>
+    
     </div>
       </div>
     </div>
