@@ -7,6 +7,10 @@
   line-height: 20px;
   cursor: pointer; 
   z-index: 1000;
+} 
+
+.seat:hover{
+  scale: 1.5;
 }
 
 .seat-row {
