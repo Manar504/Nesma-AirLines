@@ -9,7 +9,7 @@
 
 
   .red{
-    transform: translate(265px, 50px); 
+    transform: translate(330px, 50px); 
     z-index: 200;
   }
 
@@ -18,4 +18,12 @@
   @media (max-width: 700px) {
     .airplane-body {
       display: none;
-    } }
+    } } 
+
+    .bb{
+      transform: translate(-70px);
+    } 
+
+    .small-right{
+      transform: translate(-75px);
+    }

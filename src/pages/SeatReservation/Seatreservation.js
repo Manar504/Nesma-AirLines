@@ -69,15 +69,17 @@ function prepareSeatRows() {
 
   // Assume you have 37 rows and 6 seats per row
   const rows = [...Array(30)].map((_, rowIndex) => {
-    return [...Array(4)].map((_, seatIndex) => {
+    return [...Array(4)].map((_, seatIndex) => { 
+      
       const isOccupied = Math.random() < 0.5;
       const seatNumber = `${rowIndex + 1}${String.fromCharCode(65 + seatIndex)}`;
-      const seatImage = isOccupied ? takenSeatImg : availableSeatImg;
+      const seatImage = isOccupied ? takenSeatImg : availableSeatImg;  
+     
 
-      return {
-        number: seatNumber, // Include the seat number if needed
+      return { 
+        number: seatNumber, 
         isOccupied: isOccupied,
-        image: seatImage, // Store just the image path
+        image: seatImage, 
       };
     });
   });
