@@ -18,7 +18,25 @@
   @media (max-width: 700px) {
     .airplane-body {
       display: none;
-    } } 
+    }  
+  
+    /* .red{
+      width: 100px ; 
+    } 
+
+    .planBody{
+      width: 200px;
+    } 
+
+    .bb{
+      width: 100px;
+    } 
+
+    .small-right{
+      width: 100;
+    } */
+  
+  } 
 
     .bb{
       transform: translate(-70px);
@@ -26,4 +44,5 @@
 
     .small-right{
       transform: translate(-75px);
-    }
+    } 
+

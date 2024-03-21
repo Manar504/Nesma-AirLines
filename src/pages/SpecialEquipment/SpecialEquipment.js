@@ -1,7 +1,11 @@
 import React from "react";
-import SpecialEquipmentCard from "../../components/SpecialEquipmentCard/SpecialEquipmentCard";
+import SpecialEquipmentCard from "../../components/SpecialEquipmentCard/SpecialEquipmentCard"; 
+import { useEffect } from "react";
 
-const SpecialEquipment = () => {
+const SpecialEquipment = () => { 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <div className="container-fluid">

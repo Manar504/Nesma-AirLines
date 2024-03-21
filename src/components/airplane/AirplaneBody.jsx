@@ -13,7 +13,7 @@ const AirplaneBody = ({ rows, onSelectSeat }) => {
  
 <div className="svg-container" style={{ position: 'relative' }}>  
   
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="182" viewBox="0 0 267 182" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="182" viewBox="0 0 267 182" fill="none" className='planBody'>
   <path d="M266.432 1.74414L14.0935 150.661L1.47656 174.399L6.16284 181.23L208.935 106.259H266.432V1.74414Z" fill="#D2DAE7" stroke="#637289"/> 
  
 </svg>

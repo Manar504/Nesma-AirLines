@@ -1,7 +1,11 @@
 import React from 'react' ; 
-import "./PassngerData2.css"
+import "./PassngerData2.css"; 
+import { useEffect } from 'react';
 
-const PassngerData2 = () => {
+const PassngerData2 = () => {  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className='continar' style={{height:"200vh"}}>  
     <div>

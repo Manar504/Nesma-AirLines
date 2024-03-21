@@ -1,7 +1,12 @@
 import React from 'react'
-import PetsCard from '../../components/PetsCard/PetsCard'
+import PetsCard from '../../components/PetsCard/PetsCard'; 
+import { useEffect } from 'react';
 
-const Pets = () => {
+const Pets = () => { 
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <div className="container-fluid">

@@ -1,7 +1,12 @@
 import React from 'react'
-import PriorityCheckInCard from '../../components/PriorityCheckInCard/PriorityCheckInCard'
+import PriorityCheckInCard from '../../components/PriorityCheckInCard/PriorityCheckInCard'; 
+import { useEffect } from 'react';
 
-const PriorityCheckIn = () => {
+
+const PriorityCheckIn = () => { 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <div>

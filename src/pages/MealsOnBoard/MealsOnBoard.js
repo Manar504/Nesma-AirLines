@@ -1,8 +1,12 @@
 import React from "react";
 import ChooseMeal from "../../components/ChooseMeal/ChooseMeal"; 
-import "./MealsOnBoard.css"
+import "./MealsOnBoard.css"; 
+import { useEffect } from "react";
 
-const MealsOnBoard = () => {
+const MealsOnBoard = () => { 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <div className="container-fluid">

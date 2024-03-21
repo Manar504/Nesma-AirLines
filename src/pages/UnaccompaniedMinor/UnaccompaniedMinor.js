@@ -1,8 +1,12 @@
 import React from "react";
 
 import UnaccompaniendMinorCard from "../../components/UnaccompaniendMinorCard/UnaccompaniendMinorCard";
+import { useEffect } from "react";
 
-const UnaccompaniedMinor = () => {
+const UnaccompaniedMinor = () => { 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <div>

@@ -2,8 +2,12 @@ import React from "react";
 import "./Seatreservation.css" ; 
 import AirplaneBody from "../../components/airplane/AirplaneBody";
 import ChooseSeatsConformationCard from "../../components/ChooseSeatsConformationCard/ChooseSeatsConformationCard";
+import { useEffect } from "react";
 
-const Seatreservation = () => { 
+const Seatreservation = () => {  
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const handleSelectSeat = (seatNumber) => {
     console.log(`Seat ${seatNumber} selected`);
     // Your logic for seat selection here

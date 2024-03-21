@@ -1,8 +1,12 @@
 import React from 'react' 
 import "./OverviewReseat.css"
-import Reseat from '../../components/Reseat/Reseat'
+import Reseat from '../../components/Reseat/Reseat' ; 
+import { useEffect } from 'react';
 
-const OverviewReseat = () => {
+const OverviewReseat = () => { 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className='continar' style={{height:"300vh"}}>  
     <div>

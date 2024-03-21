@@ -1,7 +1,11 @@
 import React from "react";
-import AirportLoungeCard from "../../components/AirportLoungeCard/AirportLoungeCard";
+import AirportLoungeCard from "../../components/AirportLoungeCard/AirportLoungeCard"; 
+import { useEffect } from "react";
 
-const AirportLounge = () => {
+const AirportLounge = () => { 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <div>

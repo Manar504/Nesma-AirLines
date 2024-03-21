@@ -1,7 +1,11 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
-const NotFound = () => {
+const NotFound = () => { 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="d-flex align-items-center justify-content-center vh-100 bg-white">
   <div className="text-center row">

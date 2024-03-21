@@ -1,8 +1,13 @@
 import React from "react";
 import "./ServiesPage.css";
-import Cards from "../../components/Cards/Cards";
+import Cards from "../../components/Cards/Cards"; 
+import { useEffect } from "react";
 
-const SerivesPage = () => {
+const SerivesPage = () => { 
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className="text-center mt-4 container" style={{width:"70%"}}>

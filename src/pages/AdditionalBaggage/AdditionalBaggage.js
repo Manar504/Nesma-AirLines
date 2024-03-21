@@ -1,7 +1,12 @@
 import React from "react";
 import "./AdditionalBaggage.css"
-import AdditionalBaggageCard from "../../components/AdditionalBaggageCard/AdditionalBaggageCard";
-function AdditionalBaggage() {
+import AdditionalBaggageCard from "../../components/AdditionalBaggageCard/AdditionalBaggageCard"; 
+import { useEffect } from 'react';
+function AdditionalBaggage() { 
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <div>

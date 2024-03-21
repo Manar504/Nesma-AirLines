@@ -1,9 +1,13 @@
 import React from 'react' 
 import "./OverviewCheckout.css"
 import CheckoutForm from '../../components/CheckoutForm/CheckoutForm'
-import PaymentForm from '../../components/PaymentForm/PaymentForm'
+import PaymentForm from '../../components/PaymentForm/PaymentForm';  
+import { useEffect } from 'react';
 
-const OverviewCheckout = () => {
+const OverviewCheckout = () => { 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className='continar' style={{height:"200vh"}}>  
     <div>

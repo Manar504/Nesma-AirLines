@@ -1,8 +1,12 @@
 import React from 'react';
 import "./PassngerData.css"
-import FormPassengerinfo from '../../components/form/FormPassengerinfo';
+import FormPassengerinfo from '../../components/form/FormPassengerinfo'; 
+import { useEffect } from 'react';
 
-const PassngerData = () => {
+const PassngerData = () => { 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className='continar' style={{height:"200vh"}}>  
     <div>

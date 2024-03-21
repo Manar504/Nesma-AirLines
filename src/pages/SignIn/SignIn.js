@@ -1,8 +1,12 @@
 import React from "react";
 import "./SignIn.css";
 import FormSignIn from "../../components/FormSignIn/FormSignIn";
+import { useEffect } from "react";
 
-const SignIn = () => {
+const SignIn = () => { 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="container my-5">
       <div className="row nn">

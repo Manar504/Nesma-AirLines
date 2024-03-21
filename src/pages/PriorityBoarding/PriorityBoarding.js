@@ -1,7 +1,12 @@
 import React from 'react'
-import PriorityBoardingCard from '../../components/PriorityBoardingCard/PriorityBoardingCard'
+import PriorityBoardingCard from '../../components/PriorityBoardingCard/PriorityBoardingCard'; 
+import { useEffect } from 'react';
 
-const PriorityBoarding = () => {
+const PriorityBoarding = () => { 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); 
+
   return (
     <div>
     <div>
