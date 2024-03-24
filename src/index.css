@@ -11,5 +11,16 @@ body {
      display: none !important;
       
   }
+} 
+
+@media (max-width: 700px) { 
+  .FLYWITHUS{
+    display: none;
+  } 
+
+  .DISCOVEROURROUTES{
+    display: none;
+  }
+  
 }
 
