@@ -57,8 +57,13 @@ function FlightForm() {
       </div> 
       <div className="row"> 
       <input type="date" className="form-control" id="date" name="date"/>
+      </div>  
+      <div className="d-flex my-2"> 
+         <div style={{color:"gray" ,marginRight:"30px"}}> <input type="checkbox"/> Today</div> 
+         <div style={{color:"gray" ,marginRight:"30px"}}> <input type="checkbox"/> Flight Day</div>
+         <div style={{color:"gray" ,marginRight:"30px"}}> <input type="checkbox"/> Selection</div>
+      </div>
 
-      </div> 
       <br/>
       <div className="row">  
       <h4>Flight number</h4>
