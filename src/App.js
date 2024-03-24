@@ -20,6 +20,7 @@ import PriorityBoarding from './pages/PriorityBoarding/PriorityBoarding';
 import PassngerData2 from './pages/passngerData2/PassngerData2';
 import SignIn from './pages/SignIn/SignIn';
 import NotFound from './pages/notFound/NotFound';
+import Return from './pages/return/Return';
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
       <Route path='PriorityBoarding' element={<PriorityBoarding/>} /> 
       <Route path='PassngerData2' element={<PassngerData2/>}/> 
       <Route path='SignIn' element={<SignIn/>}/> 
+      <Route path='Return' element={<Return/>}/>
       <Route path='*'  element={<NotFound/>}/>
     
      </Routes> 
